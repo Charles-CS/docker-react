@@ -1,38 +1,42 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import React from "react";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import LoginPage from "./pages/LoginPage";
-import CartPage from "./pages/CartPage";
-import MainPage from "./pages/MainPage";
-import ShopPage from "./pages/ShopPage";
-import CheckoutPage from "./pages/CheckoutPage";
-import SignupPage from "./pages/SignupPage";
-import DashboardPage from "./pages/DashboardPage";
+// import LoginPage from "./pages/LoginPage";
+// import CartPage from "./pages/CartPage";
+// import MainPage from "./pages/MainPage";
+// import ShopPage from "./pages/ShopPage";
+// import CheckoutPage from "./pages/CheckoutPage";
+// import SignupPage from "./pages/SignupPage";
+// import DashboardPage from "./pages/DashboardPage";
 
 // ⭐ Import your portfolio landing page
 import ProfilePage from "./PortfolioComponents/ProfilePage";
 
-function App() {
-  return (
-    <Router>
-      <Routes>
+export default function App() {
+  return <ProfilePage />;
+} 
 
-        {/* ⭐ NEW LANDING PAGE */}
-        <Route path="/" element={<ProfilePage />} />
+// function App() {
+//   return (
+//     <Router>
+//       <Routes>
 
-        {/* Customer Routes */}
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/main" element={<MainPage />} />
-        <Route path="/shop" element={<ShopPage />} />
-        <Route path="/cart" element={<CartPage />} />
-        <Route path="/checkout" element={<CheckoutPage />} />
-        <Route path="/signup" element={<SignupPage />} />
+//         {/* ⭐ NEW LANDING PAGE */}
+//         <Route path="/" element={<ProfilePage />} />
 
-        {/* Admin Route */}
-        <Route path="/dashboard" element={<DashboardPage />} />
-      </Routes>
-    </Router>
-  );
-}
+//         {/* Customer Routes */}
+//         <Route path="/login" element={<LoginPage />} />
+//         <Route path="/main" element={<MainPage />} />
+//         <Route path="/shop" element={<ShopPage />} />
+//         <Route path="/cart" element={<CartPage />} />
+//         <Route path="/checkout" element={<CheckoutPage />} />
+//         <Route path="/signup" element={<SignupPage />} />
 
-export default App;
+//         {/* Admin Route */}
+//         <Route path="/dashboard" element={<DashboardPage />} />
+//       </Routes>
+//     </Router>
+//   );
+// }
+
+// export default App;
