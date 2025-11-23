@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd960cd5.css",
+    "main.js": "/static/js/main.92d5bc67.js",
+    "static/media/Astig.png": "/static/media/Astig.6b1f1999be1ec38ac01e.png",
+    "index.html": "/index.html",
+    "main.bd960cd5.css.map": "/static/css/main.bd960cd5.css.map",
+    "main.92d5bc67.js.map": "/static/js/main.92d5bc67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd960cd5.css",
+    "static/js/main.92d5bc67.js"
+  ]
+}
