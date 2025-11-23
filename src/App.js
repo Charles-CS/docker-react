@@ -12,7 +12,7 @@
 // ⭐ Import your portfolio landing page
 import ProfilePage from "./PortfolioComponents/ProfilePage";
 
-export default function App() {
+function App() {
   return <ProfilePage />;
 } 
 
@@ -39,4 +39,4 @@ export default function App() {
 //   );
 // }
 
-// export default App;
+export default App;
